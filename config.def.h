@@ -4,7 +4,11 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrainsMono Nerd Font Bandit:style=Medium,Regular:size=8"
+	"JetBrainsMono Nerd Font Bandit:style=Medium,Regular:size=8",
+	"Font Awesome 5 Free:style=Regular:size=8",
+	"Font Awesome 5 Brands:style=Regular:size=8",
+	"octicons:style=Medium:size=8",
+    "JoyPixels:pixelsize=8"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
