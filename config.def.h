@@ -10,9 +10,9 @@ static int min_width   = 500;    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
 	"JetBrainsMono Nerd Font Bandit:style=Medium:pixelsize=12",
-    "Twemoji:pixelsize=12:antialias=true:autohint=true"
+        "Twemoji:pixelsize=12:antialias=true:autohint=true"
 };
-    /* "JoyPixels:pixelsize=12:antialias=true:autohint=true", */
+        /* "JoyPixels:pixelsize=12:antialias=true:autohint=true", */
 	/* "octicons:style=Medium:pixelsize=12", */
 	/* "Font Awesome 5 Free:style=Regular:size=8", */
 	/* "Font Awesome 5 Brands:style=Regular:size=8", */
