@@ -9,11 +9,11 @@ static int centered    = 0;      /* -c option; centers dmenu on screen */
 static int min_width   = 500;    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrainsMono Nerd Font Bandit:style=Medium:pixelsize=12",
-        "Twemoji:pixelsize=12:antialias=true:autohint=true"
+	"JetBrainsMono Nerd Font Bandit:style=Medium:pixelsize=15",
+        "Twemoji:pixelsize=15:antialias=true:autohint=true"
 };
-        /* "JoyPixels:pixelsize=12:antialias=true:autohint=true", */
-	/* "octicons:style=Medium:pixelsize=12", */
+        /* "JoyPixels:pixelsize=15:antialias=true:autohint=true", */
+	/* "octicons:style=Medium:pixelsize=15", */
 	/* "Font Awesome 5 Free:style=Regular:size=8", */
 	/* "Font Awesome 5 Brands:style=Regular:size=8", */
 static const char *prompt   = NULL;      /* -p  option; prompt to the left of input field */
