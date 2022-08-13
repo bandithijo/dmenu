@@ -783,12 +783,6 @@ setup(void)
 			mw = wa.width;
 		}
 	}
-	for (item = items; item && item->text; ++item) {
-		if ((tmp = textw_clamp(item->text, mw/3)) > inputw) {
-			if ((inputw = tmp) == mw/3)
-				break;
-		}
-	}
 	inputw = mw / 3; /* input width: ~33% of monitor width */
 	match();
 
